@@ -1,12 +1,12 @@
 'use client';
 
 import Link from 'next/link';
+import Image from 'next/image';
 
 const Hero = () => {
   return (
     <section className="bg-blue-50 py-20 px-4 md:px-8">
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-12">
-        {/* Text Content */}
         <div className="flex-1 text-center md:text-left">
           <h1 className="text-4xl md:text-5xl font-bold text-blue-900 leading-tight">
             Trusted Accountancy & Auditing Consultancy
@@ -30,11 +30,12 @@ const Hero = () => {
           </div>
         </div>
 
-        {/* Hero Image or Illustration */}
         <div className="flex-1">
-          <img
+          <Image
             src="/hero-image.png"
             alt="Hero Illustration"
+            width={400}
+            height={400}
             className="w-full h-auto max-w-md mx-auto"
           />
         </div>
