@@ -1,7 +1,5 @@
 'use client';
 
-import Link from 'next/link';
-
 const AboutHero = () => {
   return (
     <section className="bg-blue-50 py-20 px-4 md:px-8">

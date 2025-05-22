@@ -30,9 +30,10 @@ const ServiceWCS = () => {
     <section className="bg-white py-20 px-4 md:px-8">
       <div className="max-w-6xl mx-auto text-center">
         <h2 className="text-3xl font-bold text-blue-900">Why Choose Us</h2>
-        <p className="mt-2 text-gray-600 text-lg">
-          We're committed to delivering reliable, efficient, and trusted compliance solutions.
-        </p>
+      <p className="mt-2 text-gray-600 text-lg">
+  We&#39;re committed to delivering reliable, efficient, and trusted compliance solutions.
+</p>
+
 
         <div className="mt-12 grid gap-8 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4">
           {benefits.map((item, index) => (

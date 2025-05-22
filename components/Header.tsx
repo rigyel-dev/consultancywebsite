@@ -30,7 +30,7 @@ const Header = () => {
               priority
             />
             <span className="text-lg sm:text-xl font-bold text-blue-600 whitespace-nowrap">
-              Rigyel Consultancy
+              Rigyel  Environment Consultancy
             </span>
           </Link>
 

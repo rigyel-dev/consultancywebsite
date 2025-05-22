@@ -8,7 +8,7 @@ const ContactHero = () => {
           Contact Us
         </h1>
         <p className="mt-4 text-lg text-gray-700">
-          Have questions or need assistance with RRCO filings? Reach out to us anytime — we're here to help.
+          Have questions or need assistance with RRCO filings? Reach out to us anytime — we&#39;re here to help.
         </p>
       </div>
     </section>

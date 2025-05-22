@@ -3,7 +3,6 @@ import CTA from "@/components/CTA";
 import Hero from "@/components/Hero";
 import ServicesOverview from "@/components/ServicesOverview";
 import WhyChooseUs from "@/components/WhyChooseUs";
-import Image from "next/image";
 
 export const metadata = {
   title: "Rigyel Consultancy | Accountancy & Auditing in Bhutan",
@@ -17,22 +16,21 @@ export const metadata = {
     title: "Rigyel Consultancy | Trusted Accountancy & Auditing in Bhutan",
     description:
       "Rigyel Consultancy provides expert BIT/CIT submission and RRCO compliance services for businesses in Bhutan.",
-    url: "https://rigyelconsultancy.bt", // Replace with your actual domain
+    url: "https://rigyelconsultancy.bt",
     siteName: "Rigyel Consultancy",
     locale: "en_BT",
     type: "website",
   },
 };
 
-
 export default function Home() {
   return (
     <>
-    <Hero/>
-    <ServicesOverview/>
-    <WhyChooseUs/>
-    <AboutPreview/>
-    <CTA/>
-   </>
+      <Hero />
+      <ServicesOverview />
+      <WhyChooseUs />
+      <AboutPreview />
+      <CTA />
+    </>
   );
 }
